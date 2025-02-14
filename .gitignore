@@ -1,0 +1,40 @@
+# Frontend ignores
+chat-frontend/dist
+chat-frontend/tmp
+chat-frontend/out-tsc
+chat-frontend/bazel-out
+chat-frontend/node_modules
+chat-frontend/npm-debug.log
+chat-frontend/yarn-error.log
+chat-frontend/.angular/cache
+chat-frontend/.sass-cache
+chat-frontend/connect.lock
+chat-frontend/coverage
+chat-frontend/libpeerconnection.log
+chat-frontend/testem.log
+chat-frontend/typings
+chat-frontend/.nx/cache
+chat-frontend/.nx/workspace-data
+
+# Backend ignores
+chat-backend/HELP.md
+chat-backend/target/
+!chat-backend/.mvn/wrapper/maven-wrapper.jar
+!chat-backend/**/src/main/**/target/
+!chat-backend/**/src/test/**/target/
+
+# IDEs and editors (comum para ambos)
+.idea/
+.project
+.classpath
+*.launch
+*.sublime-workspace
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Sistema
+.DS_Store
+Thumbs.db
